@@ -1,0 +1,37 @@
+# objective 
+
+    - create a Kanban board 
+
+# tools & libraries
+
+    - html, css, javascript, python, pytorch
+
+# functionalities
+
+    - main page - board:
+
+        + columns with titles sorted as to do, in progress, done (html)
+
+            = buttons that add and delete extra columns (html)
+
+        + draggable blocks of task into the columns (html)
+
+            = button that makes an AI generated Kanban board (pytorch)
+
+        + color coded blocks (css)
+
+            = button that customize the colors for each block (javascript)
+            = button that makes an AI generated aethetic color theme (pytorch)
+            = button that use rng and generate color theme (html, css)
+
+        + animation that zoom in the blocks when it's hovered over (css)
+
+    - sign in page - security:
+        
+        + a unique join code that allows users to access a Kanban Board as long as they put in the code (html, python)
+        + users are asked to enter their name (html, javascript)
+
+    - log page - data storage:
+
+        + tracks changes made by users and time (python)
+
